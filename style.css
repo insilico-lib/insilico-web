@@ -1,5 +1,5 @@
 body {
-    font: 20px Helvetica, Sans-serif, Arial;
+    font: 20px 'Open Sans', Sans-serif;
     text-decoration: none;
     width: 70%;
     min-width: 500px;
@@ -7,12 +7,12 @@ body {
     padding: 0px;
 }
 a {
-    font: 20px Helvetica, Sans-serif, Arial; 
+    font: 20px 'Open Sans', Sans-serif;
     text-decoration: none; 
 }
 .wrapper {
-    border-radius: 10px; 
-    background: #f0f5ff; 
+    border-radius: 10px;
+    background: #F6F6F6;
     margin: 5px;
 }
 .page-content-header {
@@ -27,7 +27,7 @@ a {
     font-weight: bold;
 }
 .lib-name-font {
-    font-family: Monospace, Courier;
+    font-family: 'Berkshire Swash';
 }
 .page-contents-value {
     padding: 10px;
@@ -60,7 +60,8 @@ a {
     margin: 0px;
     list-style-type: none;
     padding: 10px;
-    background: #3388ac;
+    background: #2B2B2B;
+    border-bottom: 2px double #DE1B1B;
 }
 .menu-list {
     padding: 10px;
@@ -76,9 +77,8 @@ a {
     background-image: -ms-linear-gradient(top, #3498db, #2980b9);
     background-image: -o-linear-gradient(top, #3498db, #2980b9);
     background-image: linear-gradient(to bottom, #3498db, #2980b9);
-    font-family: Arial;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 30px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     border-radius: 28px;
