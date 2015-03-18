@@ -1,11 +1,11 @@
 <?php
   $menu = array("Documentation", "Download");
-  echo '<ul class="menu">';
+  echo '<div id="cssmenu"><ul>';
   foreach($menu as $menuitem) { 
-  echo '<li class="menu-list">'.
+  echo '<li>'.
        '<a style="color: #fff;" href='.strtolower($menuitem).'.php>'.
       $menuitem.
        '</a></li>';
   }
-  echo "</ul>";
+  echo "</ul></div>";
 ?>
