@@ -27,7 +27,8 @@ a {
     font-weight: bold;
 }
 .lib-name-font {
-    font-family: 'Berkshire Swash';
+    font-family: 'Open Sans', Sans-serif;
+    font-weight: bold;
 }
 .page-contents-value {
     padding: 10px;
